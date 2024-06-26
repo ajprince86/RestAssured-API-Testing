@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 89,
+    "name": "Loung Lotus",
+    "phone_number": "698-334-9733",
+    "address": "22-64 Holy St",
+    "website": "www.bats.com",
+    "language": "English",
+    "location": {
+        "lat": 90.88,
+        "lng": 22.89
+    },
+    "types": [
+        "Sports Bar",
+        "Club"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 24 Jun 2024 12:18:53 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "5c138cf181a2d08066fe46634d3b758b",
+    "scope": "APP",
+    "reference": "2378431be54dbea01162d68595b15cef2378431be54dbea01162d68595b15cef",
+    "id": "2378431be54dbea01162d68595b15cef"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=5c138cf181a2d08066fe46634d3b758b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=5c138cf181a2d08066fe46634d3b758b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 24 Jun 2024 12:18:54 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 218
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "90.88",
+        "longitude": "22.89"
+    },
+    "accuracy": "89",
+    "name": "Loung Lotus",
+    "phone_number": "698-334-9733",
+    "address": "22-64 Holy St",
+    "types": "Sports Bar,Club",
+    "website": "www.bats.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 89,
+    "name": "Mobile Brks",
+    "phone_number": "698-334-9733",
+    "address": "35-99 Center St",
+    "website": "www.bats.com",
+    "language": "Spanish",
+    "location": {
+        "lat": 90.88,
+        "lng": 22.89
+    },
+    "types": [
+        "Sports Bar",
+        "Club"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 24 Jun 2024 12:18:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "0e5f5dff2066c340a9d01d29b95b7e3e",
+    "scope": "APP",
+    "reference": "2fa0a7a8a27507c46665557b007e77102fa0a7a8a27507c46665557b007e7710",
+    "id": "2fa0a7a8a27507c46665557b007e7710"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0e5f5dff2066c340a9d01d29b95b7e3e
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=0e5f5dff2066c340a9d01d29b95b7e3e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 24 Jun 2024 12:18:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 220
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "90.88",
+        "longitude": "22.89"
+    },
+    "accuracy": "89",
+    "name": "Mobile Brks",
+    "phone_number": "698-334-9733",
+    "address": "35-99 Center St",
+    "types": "Sports Bar,Club",
+    "website": "www.bats.com",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "0e5f5dff2066c340a9d01d29b95b7e3e"
+}
+HTTP/1.1 200 OK
+Date: Mon, 24 Jun 2024 12:18:58 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
